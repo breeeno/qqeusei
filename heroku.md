@@ -11,7 +11,7 @@ Após instalar o CLI e criar a conta no serviço, você deve navegar até o dire
 Dessa maneira, o CLI irá dar inicio na sua aplicação, também é interessante ressaltar a utilidade do ``Procfile``
 
 Esse arquivo é o arquivo responsável por mandar os comandos necessários no deploy da sua app. 
-Em um projeto em Django por exemplo, talvez se faça necessário a realização de migrações para o banco de dados, então dentro do arquivo você usaria o comando ``release:python manage.py migrate``
+Em um projeto em [Django](https://github.com/breeeno/qqeusei/blob/main/django.md) por exemplo, talvez se faça necessário a realização de migrações para o banco de dados, então dentro do arquivo você usaria o comando ``release:python manage.py migrate``
 
 Caso seja necessário mais que um comando, você pode usar ```&&``` entre o nome dos comandos para que ele os execute simultamente no servidor do heroku.
 
